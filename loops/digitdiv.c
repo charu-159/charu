@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int num=487;
-    int sub=0;
+    int num =48;
+    float div =1;
     while(num>0)
     {
         int lastdigit=num%10;
-        sub=sub-lastdigit;
+        div=lastdigit/div;
         num=num/10;
     }
-    printf("substraction of digits=%d\n",sub);
+    printf("division of digits =%f/n",div);
     return 0;
 }
