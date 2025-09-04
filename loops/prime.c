@@ -1,23 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int n =6;
+    int n =8;
+    int isPrime=1;
     int i;
-    if (n <= 1) {
-        printf("Not prime\n");
-    
+    if(n<=1){
+       printf("Not a prime number\n");
+       return 0;
     }
-    for(i=2;i<n;i++)
-    {
-        if(n%i==0)
-        {
-            printf("Not prime\n");
-            
+    for(int i=2;i<n;i++){
+        if(n%i==0){
+            isPrime=0;
+            break;
         }
-        else
-        {
-            printf("Prime\n");
-            
+        if(isPrime==1){
+            printf("%d is a prime number\n",n);
+        }
+        else{
+            printf("%d is not a prime number\n",n);
         }
     }
-}
+        return 0;
+    }
