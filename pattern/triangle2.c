@@ -4,13 +4,13 @@ int main(){
  for(int i=0;i<4;i++) 
                       
     {            
-        for(int j=3;j>i;j--){
+        for(int j=0;j<=i;j++){
        printf(" ");
         }
-        for(int k=0;k<=i;k++){
+        for(int k=0;k<=3-i;k++){
             printf("%c",num++);
         }
-        for(int p=1 ;p<=i;p++){
+        for(int p=1 ;p<=3-i;p++){
             printf("%c",num++);
         }
         printf("\n");
@@ -18,4 +18,5 @@ int main(){
 
     return 0;
 }
+
 
