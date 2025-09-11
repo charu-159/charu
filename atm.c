@@ -1,7 +1,7 @@
 #include <stdio.h>
  int main() {
     int choice;
-    float balance = 800, amount;
+    float balance = 1000, amount;
     printf("1. Balance Check\n2. Withdraw\n3. Deposit\n4. Exit\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
