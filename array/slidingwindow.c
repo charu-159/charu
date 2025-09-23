@@ -18,9 +18,7 @@ int main(){
      maxsum=windowsum;
     }
        printf("%d", maxsum);
-
-    
-    return 0;
+       return 0;
 }
 
     

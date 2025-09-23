@@ -1,9 +1,10 @@
+//pointer
 #include<stdio.h>
     void swap(int *x,int *y){
-    /*int temp=*x;
+    /*int temp=*x;//swap with the help of third variable
     *x=*y;                  
     *y=temp;*/
-    *x=*x+*y;
+    *x=*x+*y;//swap without third variable 
     *y=*x-*y;
     *x=*x-*y;
     }
