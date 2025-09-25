@@ -5,7 +5,7 @@ int main(){
     //subarray find then max find
      int arr[]={2,1,5,4,7,8,1,2};
      int k=2;
-    int n=sizeof(arr);///sizeof(arr[0]);
+    int n=sizeof(arr)/sizeof(arr[0]);
     int wsum=0;
     for(int i=0;i<k;i++){
       wsum=wsum+arr[i];
