@@ -1,6 +1,6 @@
 //employee 
 #include <stdio.h>
-
+#include<string.h>
 struct employee {
     char name[20];
     int id;
