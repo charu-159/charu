@@ -1,4 +1,4 @@
-
+//output -12345
 /*#include<stdio.h>
 void sum(int a){
     //return a;
@@ -13,6 +13,7 @@ int main(){
 sum(5);
 }*/
 
+//output=54321
 #include<stdio.h>
 void sum(int a){
     //return a;
