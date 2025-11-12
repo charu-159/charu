@@ -23,5 +23,6 @@ int main(){
     int data=Research(arr);
     printf("%d",data);
     return 0;
+    
 
 }

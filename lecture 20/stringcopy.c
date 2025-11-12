@@ -3,12 +3,13 @@
 int main(){
    char name []="charu";//'c''h'a''r''u''\0'
    char data[10];
-   for(int i=0;name[i]!='\0';i++){
+   int i=0;
+   for( i=0;name[i]!='\0';i++){
     data[i]=name[i];
    }
-       printf("%s",data);
-   
-    return 0;
+       data[i]='\0';
+       printf(" copied string:%s",data);
+       return 0;
 }
 
 /*#include<stdio.h>

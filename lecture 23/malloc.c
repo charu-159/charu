@@ -13,7 +13,9 @@ int main()
     }
     printf("you have entered:");
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        printf("%d ", arr[i]);
     }
-//free .arr=for.the.space.which.is .not.used
+    // free allocated memory
+    free(arr);
+    return 0;
 }

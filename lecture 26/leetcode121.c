@@ -27,20 +27,18 @@ int main(){
 
     }*/
 
-    #include <stdio.h>
+ #include <stdio.h>
 int main(){
-
- 
- int arr[6]={7,1,5,3,6,4};
- int minPrize=arr[0];
+ int arr[6]={7,1,5,3,8,4};
+ int minbuy=arr[0];
  int maxP=0;
  for(int i =1;i<6;i++){
-    if(arr[i]<minPrize){
-        minPrize=arr[i];
+    if(arr[i]<minbuy){
+        minbuy=arr[i];
 
     }else 
     {
-       int profit=arr[i]-minPrize;
+       int profit=arr[i]-minbuy;
        if(profit>maxP){
         maxP=profit;
        }
@@ -50,6 +48,7 @@ int main(){
  }
 
  printf("%d",maxP);
+ return 0;
 }
 
 

@@ -11,11 +11,11 @@ int fibo(int a){
 }
 
 int main(){
-    int count, i;
-    printf("Enter the number of Fibonacci terms you want: ");
-    scanf("%d", &count);
+    int a, i;
+    printf("Enter the number : ");
+    scanf("%d", &a);
     printf("Fibonacci series: ");
-    for (i = 0; i < count; i++) {
+    for (i = 0; i < a; i++) {
         printf("%d ", fibo(i));
     }
     printf("\n");

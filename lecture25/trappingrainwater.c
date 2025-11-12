@@ -3,7 +3,7 @@
 int main(){
     int letMax[6];
     // int height[12]={0,1,0,2,1,0,1,3,2,1,2};
-          int height[6]=        {4,2,0,3,2,5};
+    int height[6]= {5,6,0,3,5,2};
     int rightMax[6];
     int water=0;
     letMax[0]=height[0];
@@ -15,7 +15,7 @@ int main(){
         }
     }
         rightMax[5]=height[5];
-     for(int i =3;i>=0;i--){
+     for(int i =4;i>=0;i--){
         if(height[i]>rightMax[i+1]){
             rightMax[i]=height[i];
         }else{
@@ -35,6 +35,8 @@ int main(){
         water=water+(minHieght-height[i]);
         
     }
-    printf("%d",water);
-    
+    printf("trap water is:%d",water);
+    return 0;
 }
+
+

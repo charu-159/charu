@@ -1,13 +1,14 @@
+// Strings in C
 /*#include<stdio.h>
 int main(){
     char name []="charu";//'\0' is automatically added at the end of the string
     int i=0;
     printf("%s\n",name);
-    printf("%c\n",name[3]);
+    //printf("%c\n",name[3]);
     return 0;
 }*/
 
-#include<stdio.h>
+/*#include<stdio.h>
 int main(){
    char name []="charu";//'c''h'a''r''u''\0'
    int i=0;
@@ -15,9 +16,9 @@ int main(){
        printf("%c\n",name[i]);
    }
     return 0;
-}
+}*/
 
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
    char name []="charu";//'c''h'a''r''u''\0'
    int i=0;
@@ -25,5 +26,6 @@ int main(){
        printf("%c\n",name[i]);
        i++;
    }
-    return 0;*/
+    return 0;
+}
 

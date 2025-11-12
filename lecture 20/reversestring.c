@@ -8,5 +8,6 @@ int main(){
    for(i=len-1;i>=0;i--){
        printf("%c\n",name[i]);
    }
-    return 0;
+   char data[10];
+   return 0;
 }

@@ -12,7 +12,7 @@ int main(){
         if(str[i]==nstr[j]){
             printf("%c",str[i]);
         }
-
+ 
     }
 }
 return 0;
